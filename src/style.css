@@ -28,6 +28,15 @@ body {
     color: var(--texto);
 }
 
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--corPrincipal);
+    border-radius: 1rem;
+}
+
 .thanks {
     display: flex;
     align-items: center;
