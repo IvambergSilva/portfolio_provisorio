@@ -54,11 +54,6 @@ body {
     color: var(--corPrimaria);
 }
 
-section {
-    min-height: 100vh;
-    padding: 160px 8% 32px;
-}
-
 .header {
     position: fixed;
     top: 0;
@@ -68,6 +63,18 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 2rem 8%;
+    transition: 0.4s;
+}
+
+.header.sticky {
+    padding: 1rem 8%;
+    background: var(--texto);
+    transition: 0.4s;
+    z-index: 1;
+}
+
+.header.sticky a, .header.sticky #menuIcon {
+    color: #000;
 }
 
 .logo {
@@ -93,6 +100,11 @@ section {
     font-size: 3.6rem;
     color: var(--texto);
     display: none;
+}
+
+section {
+    min-height: 100vh;
+    padding: 160px 8% 32px;
 }
 
 section.home {
@@ -237,6 +249,11 @@ section.services .servicesBox {
     text-align: center;
     border: .2rem solid var(--corPrimaria);
     transition: .5s ease;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 section.services .servicesBox:hover {
@@ -307,6 +324,7 @@ section.portfolio .portfolioContent .portfolioBox div.img {
     align-items: center;
     justify-content: center;
     color: var(--corPrincipal);
+    text-align: center;
 }
 
 section.portfolio .portfolioContent .portfolioBox h4 {
@@ -492,6 +510,10 @@ footer.footer .footerIconTop a i {
         display: none;
         z-index: 100;
     }
+
+    .header.sticky a {
+        color: var(--texto);
+    }
     
     .nav.active {
         display: block;
@@ -501,6 +523,11 @@ footer.footer .footerIconTop a i {
         display: block;   
         margin: 3rem 0;
         font-size: 2rem;
+        color: var(--texto);
+    }
+
+    .nav a:hover {
+        color: var(--corPrincipal);
     }
 
     .home {
