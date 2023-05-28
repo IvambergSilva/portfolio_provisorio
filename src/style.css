@@ -333,6 +333,7 @@ section.portfolio .portfolioContent .portfolioBox div.img {
     align-items: center;
     justify-content: center;
     color: var(--corPrincipal);
+    padding: 0 1rem;
     text-align: center;
 }
 
