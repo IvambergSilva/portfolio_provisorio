@@ -1,6 +1,6 @@
 # portfolio
 Projeto desenvolvido para ser o MEU PORTFÓLIO.
-<div>Olá! Você quer acessar o meu site? Então <a href="https://ivambergsilva.github.io/portifolio/" target="_blank">clique aqui</a></div>
+<div>Olá! Você quer acessar o meu site? Então <a href="https://ivambergsilva.github.io/portfolio/" target="_blank">clique aqui</a></div>
 <h4 align="center"> 🚧 Projeto "PORTFÓLIO" ⌛ construção... 🚧 </h4>
 <hr>
 <ul> 
